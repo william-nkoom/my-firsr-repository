@@ -5,3 +5,5 @@ pacman::p_load(here,
                readxl
 ) # load relevant packages
 alzheimers <- import(here("Data", "alzheimers_data_clean.csv"))
+dim(alzheimers)
+names(alzheimers)
